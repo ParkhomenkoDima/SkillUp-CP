@@ -8,14 +8,16 @@
 
 html {
   overflow-y: scroll;
+
   font-family: $font-main;
   font-size: $font-size;
 }
 
 body {
+  letter-spacing: 0.1em;
+
   color: $color-primary;
   background-color: $color-light;
-  letter-spacing: 0.1em;
 }
 
 h1 {
