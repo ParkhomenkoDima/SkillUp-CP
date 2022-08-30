@@ -42,8 +42,19 @@ h1 {
   }
 }
 
+h2 {
+  letter-spacing: 0.1em;
+  color: #2d3651;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.2em;
+}
+
 a {
   text-decoration: none;
 
   color: $color-light;
+}
+
+p {
+  color: $color-gray;
 }

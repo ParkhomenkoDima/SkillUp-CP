@@ -15,7 +15,8 @@
   <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
   <!-- Подключаем наш основной стиль, с которым будем работать -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>GRID-TEMPLATE</title>
+  <!-- <title>GRID-TEMPLATE</title> -->
+  <title>Course project</title>
 </head>
 
 <body>
@@ -69,9 +70,9 @@
 
   <main>
     <section class="skills">
-      <div class="skills__container">
 
-        <h2 class="hidden">Наши навыки</h2>
+      <div class="skills__container">
+        <h2 class="skills__title hidden">Наши навыки</h2>
 
         <article class="skill-item">
           <h3 class="skill-item__title">
@@ -151,12 +152,192 @@
       </div>
     </section>
 
-    <section></section>
-    <section></section>
-    <section></section>
+    <section class="about">
+      <div class="about__container">
+
+        <div class="about__content">
+          <h2 class="about__title">Are You Ready? <br>Let's start!</h2>
+
+          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptates commodi
+            eligendi perspiciatis
+            non
+            ipsam numquam, perferendis fugiat amet molestias provident unde, deleniti quo ducimus placeat voluptas!</p>
+          <p class="about__text">Quisquam voluptatum quae veritatis quas odio dolores quis voluptas asperiores ex
+            obcaecati reiciendis
+            quidem
+            ducimus et doloribus sed tempore, unde beatae aut consectetur eligendi ratione repellendus nulla pariatur.
+            Explicabo enim officia iure blanditiis eos, velit.
+          </p>
+          <p class="about__text">Culpa consequatur labore, adipisci asperiores impedit tenetur quam ab dicta recusandae
+            quas nobis
+            reprehenderit
+            necessitatibus placeat corporis enim aliquid sequi saepe. Quos amet, aliquam, reiciendis porro eos
+            voluptates
+            maiores. Voluptas dolor quidem tempora illum laboriosam dolorum neque tenetur.</p>
+          <p class="about__text">Alias voluptates commodi eligendi perspiciatis non ipsam numquam, perferendis fugiat
+            amet molestias
+            provident
+            unde, deleniti quo ducimus placeat voluptas! Quos amet, aliquam, reiciendis porro eos voluptates maiores.
+          </p>
+          <p class="about__text">Culpa consequatur labore, adipisci asperiores impedit tenetur quam ab dicta recusandae
+            quas nobis
+            reprehenderit
+            necessitatibus placeat corporis enim aliquid sequi saepe.</p>
+        </div>
+
+        <div class="about__img-box">
+          <img class="about__img"
+            alt="пиктограммы ВЕБ-технологий соединенные связями и расположенные в объеме электрической лампочки"
+            src="assets/img/img-lamp-webdev.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+
+      <h2 class="form__title hidden">Contacts</h2>
+
+      <form action="https://tests.fomenko.top/echo/index.php" class="form__container" method="post">
+        <div class="form-item">
+          <label class="form-item__label hidden" for="form-name">Name</label>
+          <input id="form-name" class="form-item__field" placeholder="Your name..." type="text" name="name">
+        </div>
+
+        <div class="form-item">
+          <label class="form-item__label hidden" for="form-email">email</label>
+          <input id="form-email" class="form-item__field" placeholder="Your email..." type="text" name="email">
+        </div>
+
+        <div class="form-item">
+          <button class="btn btn--primary" type="submit">Subscribe</button>
+        </div>
+
+      </form>
+    </section>
+
+    <section class="posts">
+      <div class="posts__container">
+
+        <h2 class="posts__title">Some section of posts</h2>
+
+        <div class="posts__content">
+          <div class="post-item">
+            <a class="post-item__link">
+              <div class="post-item__img-box">
+                <img class="post-item__img"
+                  alt="художественное представление: мужчина тянется рукой к солнцу, из руки при этом туманом распостраняются краски"
+                  src="assets/img/img-post-1.png">
+              </div>
+
+              <div class="post-item__desc">
+                <h3 class="post-item__title">Nostrum quod fugiat odio perspiciatis</h3>
+                <p class="post-item__text">Minus ad voluptas non, ducimus suscipit temporibus explicabo! Inventore
+                  dolorum, debitis eligendi earum in corrupti consectetur quam nesciunt facilis explicabo?</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="post-item">
+            <a class="post-item__link">
+              <div class="post-item__img-box">
+                <img class="post-item__img" alt="человек рассматривает диаграмму социальных связей"
+                  src="assets/img/img-post-2.png">
+              </div>
+
+              <div class="post-item__desc">
+                <h3 class="post-item__title">Lorem ipsum dolor amet</h3>
+                <p class="post-item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aperiam ipsum
+                  obcaecati, quisquam. Reprehenderit corporis neque architecto, id, vero voluptate.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="post-item">
+            <a class="post-item__link">
+              <div class="post-item__img-box">
+                <img class="post-item__img" alt="человек работет с ноутбуком и графическим планшетом"
+                  src="assets/img/img-post-3.png">
+              </div>
+
+              <div class="post-item__desc">
+                <h3 class="post-item__title">Eum quibusdam voluptas explicabo, commodi</h3>
+                <p class="post-item__text">Quo sit explicabo dolore, nihil soluta adipisci deleniti consequatur
+                  voluptate cumque, quaerat minima repudiandae consectetur incidunt dolorum, culpa, voluptates ab!</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="post-item">
+            <a class="post-item__link">
+              <div class="post-item__img-box">
+                <img class="post-item__img" alt="рабочее место с клавиатурой, мышкой и монитором"
+                  src="assets/img/img-post-4.png">
+              </div>
+
+              <div class="post-item__desc">
+                <h3 class="post-item__title">Voluptate fuga earum</h3>
+                <p class="post-item__text">Ullam saepe maiores magni,consequatur perferendis earum veniam officiis
+                  sapiente a veritatis corporis voluptatum repellendus, autem dolore molestiae suscipit quia!</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="post-item">
+            <a class="post-item__link">
+              <div class="post-item__img-box">
+                <img class="post-item__img"
+                  alt="художественное представление: человек держит на ладони ноутбук из которого вылетают пиктограммы писем"
+                  src="assets/img/img-post-5.png">
+              </div>
+
+              <div class="post-item__desc">
+                <h3 class="post-item__title">Facere rerum aliquam nostrum vel repudiandae</h3>
+                <p class="post-item__text">Quo sit explicabo dolore, nihil soluta adipisci deleniti consequatur
+                  voluptate cumque, quaerat minima repudiandae consectetur incidunt dolorum, culpa, voluptates ab!</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="post-item">
+            <a class="post-item__link">
+              <div class="post-item__img-box">
+                <img class="post-item__img" alt="человек рисует на графическом планшете"
+                  src="assets/img/img-post-6.png">
+              </div>
+
+              <div class="post-item__desc">
+                <h3 class="post-item__title">Ratione reprehenderit necessitatibus, labore vel</h3>
+                <p class="post-item__text">Ad est voluptate sunt, cupiditate, voluptatem dignissimos corporis unde
+                  cumque distinctio, ab odio dolores molestias non cum fugiat enim voluptatibus!</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="posts__actions">
+          <a class="btn btn--primary" href="">View all posts...</a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer></footer>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__icons ">
+        <a class="footer__link" href="#"><i class="fab fa-facebook-square"></i></a>
+        <a class="footer__link" href="#"><i class="fab fa-google-plus-square"></i></a>
+        <a class="footer__link" href="#"><i class="fab fa-twitter-square"></i></a>
+        <a class="footer__link" href="#"><i class="fab fa-pinterest-square"></i></a>
+        <a class="footer__link" href="#"><i class="fab fa-flickr"></i></a>
+      </div>
+      <div class="footer__copy">
+        <span class="footer__slogan">WE ARE REAL</span>
+        <br>
+        <span class="footer__slogan">WEB-DEVELOPERS</span>
+      </div>
+    </div>
+  </footer>
 
   <!-- Подключаем библиотеку jquery, необходимую для работы нашего основного скрипта -->
   <script src="libs/jquery/dist/jquery.min.js"></script>
