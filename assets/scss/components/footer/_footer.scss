@@ -3,7 +3,9 @@
 
 .footer {
   padding: 50px 20px 70px;
+
   text-align: center;
+
   background-color: $color-primary;
 
   &__container {
@@ -12,37 +14,49 @@
 
   &__icons {
     position: relative;
+
     display: grid;
     justify-content: center;
+
     margin-bottom: 40px;
+
     grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
 
     &::after {
       position: absolute;
       bottom: -20px;
       left: calc(50% - 37.5px);
+
       width: 75px;
       height: 2px;
+
       content: "";
+
       background-color: rgba(255, 255, 255, 0.1);
     }
   }
 
   &__link {
     display: block;
+
     padding: 10px;
   }
 
   &__slogan:nth-of-type(1) {
     margin-right: -0.5em;
+
     letter-spacing: 0.33em;
-    font-weight: 100;
+
     color: $color-gray;
+
+    font-weight: 100;
   }
 
   &__slogan:nth-of-type(2) {
     letter-spacing: 0.05em;
+
     color: #e5e5e5;
+
     font-weight: 700;
   }
 }

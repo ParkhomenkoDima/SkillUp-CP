@@ -6,12 +6,10 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-
   @include lg-md {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
   @include md {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -26,46 +24,46 @@
 
     @include lg-min {
       margin-bottom: 3rem;
+
       font-size: 2.5rem;
     }
-
     @include lg-md {
       margin-bottom: 2.625rem;
+
       font-size: 2rem;
     }
-
     @include md-sm {
       margin-bottom: 2.25rem;
+
       font-size: 1.5rem;
     }
-
     @include sm {
       margin-bottom: 2.25rem;
+
       text-align: center;
+
       font-size: 1.5rem;
     }
   }
 
   &__content {
     display: grid;
-    padding-bottom: 20px;
-    gap: 20px;
 
+    padding-bottom: 20px;
+
+    gap: 20px;
     @include lg-min {
       grid-template-areas: "a1 a1 a2 a3" "a4 a5 a6 a6";
       grid-template-columns: repeat(4, 1fr);
     }
-
     @include lg-md {
       grid-template-areas: "a1 a1 a2" "a3 a4 a4" "a5 a5 a6";
       grid-template-columns: repeat(3, 1fr);
     }
-
     @include md-sm {
       grid-template-areas: "a1 a2" "a3 a4" "a5 a6";
       grid-template-columns: 1fr 1fr;
     }
-
     @include sm {
       grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6";
       grid-template-columns: 1fr;
@@ -90,7 +88,9 @@
   &__link {
     display: grid;
     overflow: hidden;
+
     height: 100%;
+
     grid-template-rows: 300px 1fr;
   }
 
@@ -99,12 +99,15 @@
     overflow: hidden;
     align-content: center;
     justify-content: center;
+
     background-color: $color-primary;
   }
 
   &__img {
     width: 100%;
+
     transition: transform 0.5s;
+
     object-fit: cover;
   }
 
@@ -115,22 +118,25 @@
   &__desc {
     display: grid;
     align-content: center;
+
     padding: 20px;
   }
 
   &__title {
+    transition: color 0.5s;
     text-align: center;
     letter-spacing: 0.05em;
-    font-size: 1.125rem;
-    font-family: "Roboto Slab", serif;
+
     color: $color-gray;
-    transition: color 0.5s;
+
+    font-family: "Roboto Slab", serif;
+    font-size: 1.125rem;
   }
 
   &__text {
+    transition: color 0.5s;
     text-align: center;
     letter-spacing: normal;
-    transition: color 0.5s;
   }
 
   &:hover &__title,

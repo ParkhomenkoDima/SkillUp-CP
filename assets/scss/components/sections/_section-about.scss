@@ -3,18 +3,17 @@
 
 .about {
   letter-spacing: 0.055em;
+
   background-color: #e5e5e5;
 
   @include lg-min {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-
   @include lg-md {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
   @include md {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -24,24 +23,19 @@
     display: grid;
 
     @extend %container;
-
     @include lg-min {
       gap: $gap-x5;
     }
-
     @include lg-md {
       gap: $gap-x2;
     }
-
     @include md-min {
       grid-template-columns: 1fr 271px;
     }
-
     @include md-sm {
       gap: $gap;
       grid-template-columns: 1fr 236px;
     }
-
     @include sm {
       gap: $gap;
       grid-template-columns: 1fr;
@@ -53,22 +47,24 @@
 
     @include lg-min {
       margin-bottom: 3rem;
+
       font-size: 2.5rem;
     }
-
     @include lg-md {
       margin-bottom: 2.625rem;
+
       font-size: 2rem;
     }
-
     @include md-sm {
       margin-bottom: 2.25rem;
+
       font-size: 1.5rem;
     }
-
     @include sm {
       margin-bottom: 2.25rem;
+
       text-align: center;
+
       font-size: 1.5rem;
     }
   }
@@ -80,28 +76,29 @@
 
     &:first-of-type {
       position: relative;
+
       margin-top: -5px;
 
       &::after {
         position: absolute;
         top: 0;
+
         width: 2px;
         height: 200px;
+
         content: "";
+
         background-color: rgba(99, 117, 136, 0.1);
 
         @include lg-min {
           right: -$gap-x2-5;
         }
-
         @include lg-md {
           right: -$gap;
         }
-
         @include md-sm {
           right: -$gap-sm;
         }
-
         @include sm {
           display: none;
         }
@@ -116,6 +113,7 @@
   &__img-box {
     display: grid;
     align-content: center;
+
     justify-items: center;
   }
 
